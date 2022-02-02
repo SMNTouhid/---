@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: eid-mubarak;
+    src: url(/ফন্ট/ঈদমোবারক.ttf);
+}
+@font-face {
+    font-family: papri;
+    src: url(/ফন্ট/পাপড়ি.ttf);
+}
+@font-face {
+    font-family: samim-sohag;
+    src: url(/ফন্ট/শামীমসোহাগ.ttf);
+}
+@font-face {
+    font-family: সোলায়মানলিপি;
+    src: url(/ফন্ট/সোলায়মানলিপি.ttf);
+}
+nav {
+    width: 100%;
+    background-color: olivedrab;
+    font-family: samim-sohag;
+    font-size: 33px;
+    padding: 11px;
+}
+nav a {
+    text-decoration: none;
+    color: wheat;
+}
+body {
+    background-color: yellowgreen;
+}
+main ul li a {
+    font-family: papri;
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer {
+    background-color: olivedrab;
+}
+.partition {
+    padding: 10px;
+    height: 300px;
+    width: 420px;
+}
+.sm-circle {
+    background-color: rgb(189, 238, 90);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.md-circle {
+    background-color: rgb(67, 95, 2);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.lg-circle {
+    background-color: rgb(170, 255, 0);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.aaa {
+    margin: 20px;
+    height: 300px;
+    width: 500px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 17px;
+    background-color: greenyellow;
+    float: left;
+}
+.aaa-a {
+    height: 300px;
+    width: 450px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 17px;
+    background-color: rgb(195, 252, 109);
+}
+.aaa-a-a {
+    height: 300px;
+    width: 375px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 17px;
+    background-color: rgb(217, 252, 165);
+}
+.aaa-a-a-b {
+    margin-top: 275px;
+    margin-left: 300px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 17px;
+    background-color: rgb(40, 66, 0);
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+}
